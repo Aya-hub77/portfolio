@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Inter';
+  overflow-x: hidden;
+  background: linear-gradient(135deg, #0d1117 0%, #1e3a8a 50%, #7c3aed 100%);
+  color: #f3f4f6;
+}
+a {
+  text-decoration: none;
+  color: #38bdf8;
+}
+a:hover {
+  color: #7c3aed;
+}
+:root {
+   --navbar-height: 60px;
+}
+[id] {
+   scroll-margin-top: calc(var(--navbar-height) + 8px);
+}

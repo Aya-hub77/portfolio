@@ -1,0 +1,70 @@
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 150px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+.skills .icon {
+    font-size: 50px;
+    opacity: 0.9;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+}
+.skills .icon:hover {
+  transform: translateY(-5px) scale(1.05);
+  opacity: 1;
+}
+.skills .html {
+    color: #E34F26;
+}
+.skills .css {
+    color: #1572B6;
+}
+.skills .js {
+    color: #F7DF1E;
+}
+.skills .ts {
+    color: #3178C6;
+}
+.skills .react {
+    color: #61DAFB;
+}
+.skills .tailwind {
+    color: #38B2AC;
+}
+.skills .git {
+    color: #F05032;
+}
+@media(min-width:1600px){
+    .skills {
+        padding: 20px 70px;
+    }
+    .skills .icon {
+        font-size: 70px;
+        margin-right: 30px;
+    }
+}
+@media (max-width: 900px) {
+  .skills {
+    padding: 20px 80px;
+    gap: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .skills {
+    gap: 25px;
+  }
+  .skills .icon {
+    font-size: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .skills {
+    padding: 20px;
+    gap: 20px;
+  }
+}
